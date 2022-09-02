@@ -12,6 +12,7 @@ route.get("/", (req, res, next) => {
     healthReport.msg = error;
     res.status(503).send(healthReport);
   }
+  // Hello world
 });
 
 module.exports = route;
